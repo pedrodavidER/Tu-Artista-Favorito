@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Artista Favorito</title>
+
+  <link rel="stylesheet" href="assets/js/bootstrap.bundle.min.js">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+
+<body style="background-color: rgba(41, 206, 170, 0.527); font-family: 'Times New Roman', Times, serif;  font-size: medium;">
+
+  <header>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <img src="imgs/flors.jpg" alt="">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="color:white;">
+            <li class="nav-item">
+              <a class="nav-link active" href="#carousel">Encabezado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#Albumes">Albumes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#Acerca">Acerca de él</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#formulario">¿Como ir a un concierto?</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Escriba aquí" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+
+  <main>
+    <section id="carousel" class="">
+      <div id="carouselExampleControls" class="carousel slide d-block w-100" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/ela1.jpg" class="d-block w-100" alt="ela1">
+            <div class="carousel-caption d-md-block ">
+              <h1 class="texte-light text-end">
+                Él es Eladio Carrion
+              </h1>
+              <h4 class="text-light text-end">
+                ¿Quisieras conocer más sobre él?
+              </h4>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/ela2.jpg" class="d-block w-100" alt="ela2">
+
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/ela4.jpg" class="d-block w-100" alt="ela4">
+            <div class="carousel-caption d-md-block ">
+              <h1 class="text-light text-end">Acá podrás conocer <br> un poco de quién <br>es este artista</h1>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+
+      </div>
+
+
+    </section>
+
+    <section id="Albumes" class="p-5 mt-5">
+      <h1>Albumes de Eladio Carrion</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+        <div class="col">
+          <div class="card">
+            <img src="imgs/sb.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark">Sauce Boyz</span>
+              <p class="card-text">En 2018, realizó colaboraciones en los sencillos «Dame una hora» con El Nene
+                Amenazzy, "Mi cubana" lanzado a través de Rimas Music & Mueva Records que tuvo un éxito rotundo que lo
+                llevó a obtener un remix con Cazzu, Khea y Ecko, y "Sigue bailándome" con Myke Towers, Darkiel, Brray y
+                Yann C.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="imgs/monarca.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge bg-info text-dark">Monarca</span>
+              <p class="card-text">En abril, colaboró junto al productor Foreign Teck junto a Justin Quiles, Tory Lanez,
+                Bryant Myers, entre otros, en el sencillo "Conexión".15​ El 9 de junio, colaboró con el productor
+                argentino Bizarrap en el sencillo "Eladio Carrión: Bzrp Music Sessions, Vol. 40" que alcanzó es puesto
+                10 en la lista Argentina Hot 100 de Billboard16​ y 162 al nivel global,17​ además fue certificado oro
+                por la PROMUSICAE de España.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="imgs/sen2vol1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge bg-danger">Sen2Kbron Vol.1</span>
+              <p class="card-text">El 2 de diciembre de 2021, lanzó su tercer álbum de estudio, Sauce Boyz II, una
+                secuela de Sauce Boyz, este contó con colaboraciones de artistas de nivel internacional como Arcángel,
+                Bizarrap, Duki, Jay Wheeler, Jon Z, Karol G, Luar La L, Rels B, Sech, Myke Towers, Nicky Jam, Noriel y
+                Ovi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="imgs/sb2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge bg-success">Sauce Boyz 2</span>
+              <p class="card-text">Entre abril y mayo de 2022, Eladio, anunció tres fechas en el Coliseo de Puerto Rico
+                José Miguel Agrelot, estadio donde se presentan los artistas más relevantes de Puerto Rico. Carrión
+                brindo sus primeras presentaciones de la gira Sauce Boyz World Tour, los tres shows fueron en cuestión
+                de "sold out".25​26​ En los tres días contó con invitados como Luar La L, Karol G, Jon Z, Noriel,
+                YovngChimi, entre otros.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card ">
+            <img src="imgs/sen2vol2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge bg-secondary mu-3">Sen2Kbron Vol.2</span>
+              <p class="card-text">El 3 de septiembre de 2022, continuó su gira haciendo presentación en el estadio Luna
+                Park de Argentina, en condición de sold out, en el show llevó de invitado a artistas argentinos como
+                Duki, Nicki Nicole, Big Soto, Cazzu, Bhavi, Seven Kayne, entre otros.28​29​30​ Posteriormente se
+                presentó en países como Paraguay, Guatemala, México, Chile, entre otros.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="imgs/tremen2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge bg-dark">3men2Kbron</span>
+              <p class="card-text">En noviembre de 2022, anunció que ese mismo mes su segundo proyecto a nivel mixtape,
+                SEN2 KBRN vol 2. El álbum fue presentado en la noche del 17 de noviembre en el Coliseo Marcelo Trujillo
+                de Humacao.31​ El 18 de noviembre, fue publicado oficialmente, cuenta con 10 sencillos y ninguna
+                colaboración, contiene un único video musical del sencillo «Mbappe», el cual fue grabado en Buenos Aires
+                durante su gira.​</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section id="formulario" class="border border mx-5 pt-5">
+      <h3 class="text-center">Formulario para participar por una entrada para ver a Eladio Carrion</h3>
+      <form id="formu" class="border border mb-3 p-2 text-center" style="background-color: rgba(41, 206, 170, 0.267)">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nombre Completo</label>
+          <input type="email" class="form-control w-40" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+          <div id="emailHelp" class="form-text">Tus datos no seran compartidos de ninguna forma.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">¿Por qué quieres conocerlo?</label>
+          <input type="password" class="form-control " id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+
+          <label class="form-check-label" for="exampleCheck1">Registrate</label>
+        </div>
+        <button type="submit" class="btn btn-primary" style="">Enviar</button>
+      </form>
+    </section>
+
+
+
+
+
+
+    <section id="Acerca">
+
+      <div class="card mb-3 my-5" style="background-color: gray; color: white;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="imgs/lah.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title">Acerca del artista</h4>
+              <p class="card-text">Eladio Carrión (nacido el 14 de noviembre de 1994) es un cantante, personalidad de
+                Internet y nadador. Nació en Kansas, Estados Unidos y se dio a conocer en las redes sociales gracias a
+                sus vídeos cómicos. Antes de lanzar su carrera en solitario, trabajó como compositor y colaboró con
+                otros artistas.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+
+
+
+
+  <!--Footer-->
+
+  <footer class="bg-light text-center mt-5 ">
+
+    <div class=" mt-5 " style="background-color: rgba(94, 236, 225, 0.781);">
+
+
+      <section class="mt-5">
+
+        <a class="btn btn-primary btn-floating mt-5" style="background-color: #3b5998" href="https://www.instagram.com/pedroestanga_5/"
+          role="button"><iconify-icon icon="skill-icons:instagram"></iconify-icon><i class="fab fa-facebook-f"></i></a>
+
+
+
+
+
+        <a class="btn btn-primary btn-floating mt-5" style="background-color: #dd4b39" href="#!"
+          role="button"><iconify-icon icon="devicon:github"></iconify-icon><i class="fab fa-google"></i></a>
+
+
+
+      </section>
+
+
+
+
+      <section class="">
+        <form action="">
+
+          <div class="row d-flex justify-content-center">
+
+            <div class="col-auto text center">
+              <p class="pt-2">
+                <strong>¡Espero les haya gustado!</strong>
+              </p>
+            </div>
+
+
+
+
+
+
+          </div>
+
+        </form>
+      </section>
+
+
+
+
+
+
+
+
+
+      <section class="">
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 my-2">
+
+
+            <ul class="list-unstyled mb-0">
+
+              <a href="https://www.youtube.com/channel/UC0_95MpNlRz9x7JmsXBClZA" class="text-dark ">ver más</a>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 my-2">
+
+
+            <ul class="list-unstyled mb-0">
+
+              <a href="https://discord.com/channels/me" class="text-dark ">contáctanos</a>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 my-2">
+
+
+            <ul class="list-unstyled mb-0">
+
+              <a href="https://buenosaires.gob.ar/inicio/privacidad" class="text-dark">política de privacidad</a>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 my-2">
+
+
+            <ul class="list-unstyled mb-0">
+
+              <a href="https://www.musica.com/letras.asp?foros=56327" class="text-dark">ayuda</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </section>
+
+
+    </div>
+
+
+
+    <div class="text-center p-3 py-5 " style="background-color: rgba(94, 236, 225, 0.781);">
+
+      <h5>Created by Pedro Estanga</h5>
+    </div>
+
+
+  </footer>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
